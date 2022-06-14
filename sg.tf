@@ -1,4 +1,4 @@
-resource "aws_security_group" "ec2_demo_sg" {
+resource "aws_security_group" "ec2_demo_sg_new" {
   name        = "ec2_demo_allow_http_sg_new"
   description = "Allow HTTP inbound traffic"
 
